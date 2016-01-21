@@ -1,4 +1,4 @@
-# Custom [Sage 8.3](https://roots.io/sage/) theme with [Foundation 6](http://foundation.zurb.com/)
+# Custom [Sage 8.4](https://roots.io/sage/) theme with [Foundation 6](http://foundation.zurb.com/)
 [![Build Status](https://travis-ci.org/roots/sage.svg)](https://travis-ci.org/roots/sage)
 [![devDependency Status](https://david-dm.org/roots/sage/dev-status.svg)](https://david-dm.org/roots/sage#info=devDependencies)
 

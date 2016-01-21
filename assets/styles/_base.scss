@@ -1,0 +1,33 @@
+
+
+$nice_color: pink;
+$base-font-size:50%;
+html{
+	font-family: 'Ropa Sans', sans-serif;
+}
+
+body{
+	background: white url(/images/bg.gif) center repeat;
+	color:$black;
+}
+
+h1,h2,h3,h4,h5,h6{
+	// font-family: $body-font-family;
+	font-family: 'Ropa Sans', sans-serif;
+}
+
+
+@media #{$medium-up} {
+		 h1{
+			font-size: 2rem;
+			 }
+		 }
+
+@media #{$large-up} {
+		 h1{
+			font-size: 2rem;
+			 }
+		 }
+
+
+

@@ -1,0 +1,88 @@
+/* DEV mode */
+
+// .columns{
+//     box-shadow: 0 0 1px red;
+// }
+
+.dev .content-bg {
+    background: #ccc;
+    height: 100%;
+}
+
+//                                                    
+//    ## ##  #####  ##     ####   #####  ####    ###  
+//    ## ##  ##     ##     ## ##  ##     ## ##  ## ## 
+//    ## ##  ##     ##     ## ##  ##     ## ##  ##    
+//    #####  ####   ##     ####   ####   ####    ###  
+//    ## ##  ##     ##     ##     ##     ###       ## 
+//    ## ##  ##     ##     ##     ##     ####   ## ## 
+//    ## ##  #####  #####  ##     #####  ## ##   ###  
+//                                                    
+//                                                    
+.full-width {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: initial;
+}
+
+.full-width-1400 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+}
+
+.full-width-1600 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1600px;
+}
+
+
+.width-90-percent{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1600px;
+    @media #{$medium-up} {
+        width: 92%;
+       
+    }
+}
+
+
+
+
+.full-height {
+    height: 100%;
+}
+
+.column.nopadding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.text-truncate {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.margin-top{
+    margin-top:15px;
+    @media #{$medium-up} {
+        margin-top:30px;
+       
+    }
+}
+

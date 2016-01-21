@@ -275,7 +275,9 @@ gulp.task('build', function(callback) {
 gulp.task('wiredep', function() {
   var wiredep = require('wiredep').stream;
   return gulp.src(project.css)
-    .pipe(wiredep())
+    .pipe(wiredep({
+      exclude: ['foundation-sites']
+    }))
     .pipe(changed(path.source + 'styles', {
       hasChanged: changed.compareSha1Digest
     }))

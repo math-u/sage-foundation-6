@@ -1,5 +1,6 @@
 <?php
-use Roots\Sage\Config;
+
+use Roots\Sage\Setup;
 use Roots\Sage\Wrapper;
 ?>
 
@@ -21,7 +22,7 @@ use Roots\Sage\Wrapper;
         <main class="main small-12 medium-8 columns" role="main">
           <?php include Wrapper\template_path(); ?>
         </main><!-- /.main -->
-        <?php if (Config\display_sidebar()) : ?>
+        <?php if (Setup\display_sidebar()) : ?>
           <aside class="sidebar small-12 medium-4 columns" role="complementary">
             <?php include Wrapper\sidebar_path(); ?>
           </aside><!-- /.sidebar -->
@@ -35,3 +36,4 @@ use Roots\Sage\Wrapper;
     ?>
   </body>
 </html>
+
